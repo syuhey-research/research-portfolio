@@ -56,6 +56,6 @@
 ---
 
 ## 参考文献
-- K. Shimada, T. Arahira, S. Matsuno, *Evolutionary Method for Two-dimensional Associative Local Distribution Rule Mining*, IEEE ICTAI 2021:contentReference[oaicite:4]{index=4}  
-- K. Shimada, T. Arahira, S. Matsuno, *ItemSB: Itemsets with Statistically Distinctive Backgrounds Discovered by Evolutionary Method*, Int. J. Semantic Computing, 2022:contentReference[oaicite:5]{index=5}
+- 【1】K. Shimada, T. Arahira, S. Matsuno, *Evolutionary Method for Two-dimensional Associative Local Distribution Rule Mining*, IEEE ICTAI 2021:contentReference[oaicite:4]{index=4}  
+- 【2】K. Shimada, T. Arahira, S. Matsuno, *ItemSB: Itemsets with Statistically Distinctive Backgrounds Discovered by Evolutionary Method*, Int. J. Semantic Computing, 2022:contentReference[oaicite:5]{index=5}
 
