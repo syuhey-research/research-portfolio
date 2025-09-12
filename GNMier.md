@@ -63,13 +63,13 @@ $$
 ---
 
 ## 応用例
-- 音楽データ＋地図データを用いた予測タスク:contentReference[oaicite:2]{index=2}  
-- 医療データ（HCCデータセット）における生存/死亡と年齢の関係分析:contentReference[oaicite:3]{index=3}  
+- 音楽データ＋地図データを用いた予測タスク
+- 医療データ（HCCデータセット）における生存/死亡と年齢の関係分析
 - 大規模データにおける相関発見と条件付きパターン抽出  
 
 ---
 
 ## 参考文献
-- 【1】K. Shimada, T. Arahira, S. Matsuno, *Evolutionary Method for Two-dimensional Associative Local Distribution Rule Mining*, IEEE ICTAI 2021:contentReference[oaicite:4]{index=4}  
-- 【2】K. Shimada, T. Arahira, S. Matsuno, *ItemSB: Itemsets with Statistically Distinctive Backgrounds Discovered by Evolutionary Method*, Int. J. Semantic Computing, 2022:contentReference[oaicite:5]{index=5}
+- 【1】K. Shimada, T. Arahira, S. Matsuno, *Evolutionary Method for Two-dimensional Associative Local Distribution Rule Mining*, IEEE ICTAI 2021 
+- 【2】K. Shimada, T. Arahira, S. Matsuno, *ItemSB: Itemsets with Statistically Distinctive Backgrounds Discovered by Evolutionary Method*, Int. J. Semantic Computing, 2022
 
