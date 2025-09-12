@@ -49,7 +49,7 @@
 
 ### ルール表現
 $$
-(A_1 = 1) \wedge (A_2 = 1) \;\;\rightarrow\;\; (m_X, s_X, m_Y, s_Y, R_{XY})
+(A_1 = 1) \wedge (A_2 = 1) \rightarrow (m_X, s_X, m_Y, s_Y, R_{XY})
 $$
 
 - $m_X, m_Y$: 平均値  
