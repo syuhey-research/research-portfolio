@@ -17,7 +17,7 @@
 
 ## DeepREDとは
 **DeepRED** は、Zilke, Loza Mencía, Janssen (TU Darmstadt) による、**ディープニューラルネットワークからルールを抽出する初の試み** である。  
-従来の **CRED (Continuous/discrete Rule Extractor via Decision tree induction)** を拡張し、任意の層数を持つDNNに対応している。
+従来の [**CRED (Continuous/discrete Rule Extractor via Decision tree induction)**](CRED.md) を拡張し、任意の層数を持つDNNに対応している。
 
 - **CREDの特徴**: 1層の隠れ層のみを対象に、C4.5決定木を使ってルールを生成  
 - **DeepREDの拡張**: DNNを層ごとに分解し、ニューロン単位でCREDを適用してルールを抽出  
