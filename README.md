@@ -14,6 +14,6 @@
 ## ファイル構成
 - `index.md` : 自己紹介
 - `research.md` : 研究の詳細（背景、手法、実験設定、展望）  
-- `gnp.md` : ルールの組合せ及びルール間の論理的つながりの最適化のために構築したGNPについての説明
-- `gnp_architecture.md` : 本研究におけるGNPの詳細な設計
+- `gnp.md` : 本研究で用いたGNPの目的、概要
+- `gnp_architecture.md` : 本研究におけるGNPの詳細
 - `crossover.md` : 実験に用いたGNPの６種類の交叉方法について 
