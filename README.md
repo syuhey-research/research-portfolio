@@ -13,5 +13,6 @@
 
 ## ファイル構成
 - `research.md` : 研究の詳細（背景、手法、実験設定、展望）  
-- `works.md` : 成果物一覧（コード・実装のまとめ）  
-- `gnmier_rule_optimize.py` : GNMierで発見したルールの組み合わせ・最適化コード  
+- `gnp.md` : GNPについての説明
+- `gnp_architecture.md` : ルールの組合せ及びルール間の論理的つながりの最適化のために構築したGNPの詳細な設計
+- `crossover.md` : 実験に用いたGNPの６種類の交叉方法について 
