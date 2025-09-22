@@ -1,13 +1,13 @@
 # DeepRED: Rule Extraction from Deep Neural Networks
 
 ## 背景
-近年、ディープニューラルネットワーク（DNN）は多くの分野で従来手法を凌駕する性能を示している。しかし、その高精度の裏で **「なぜその予測が出たのか」** という意思決定根拠はブラックボックス化されており、安全性が求められる医療、金融、自動運転などの分野では透明性が不可欠である【Loza IW19 Prague】。  
+近年、ディープニューラルネットワーク（DNN）は多くの分野で従来手法を凌駕する性能を示している。しかし、その高精度の裏で **「なぜその予測が出たのか」** という意思決定根拠はブラックボックス化されており、安全性が求められる医療、金融、自動運転などの分野では透明性が不可欠である【1】。  
 その解決策の一つが、ニューラルネットワークの振る舞いを **人間が理解できるルール（if–then規則）** に変換することである。
 
 ---
 
 ## ルール抽出のアプローチ
-ニューラルネットワークからのルール抽出には主に3つの方法が存在する【Loza IW19 Prague】。
+ニューラルネットワークからのルール抽出には主に3つの方法が存在する【1】。
 
 - **分解型**: ネットワーク構造や各ニューロンの重みを直接解析する方法  
 - **教育型**: ネットワークをブラックボックスとみなし、入出力関係からルールを学習する方法  
@@ -17,7 +17,7 @@
 
 ## DeepREDとは
 **DeepRED** は、Zilke, Loza Mencía, Janssen (TU Darmstadt) による、**ディープニューラルネットワークからルールを抽出する初の試み** である。  
-従来の [**CRED (Continuous/discrete Rule Extractor via Decision tree induction)**](CRED.md) を拡張し、任意の層数を持つDNNに対応している。
+従来の [**CRED (Continuous/discrete Rule Extractor via Decision tree induction)**](CRED.md) 【2】を拡張し、任意の層数を持つDNNに対応している。
 
 - **CREDの特徴**: 1層の隠れ層のみを対象に、C4.5決定木を使ってルールを生成  
 - **DeepREDの拡張**: DNNを層ごとに分解し、ニューロン単位でCREDを適用してルールを抽出  
@@ -63,7 +63,9 @@ DeepREDは人工データセットやXOR問題などで検証されている。
 
 
 ## 参考文献
-- Zilke, J. R., Loza Mencía, E., & Janssen, F. (2016).  
+- 【1】Zilke, J. R., Loza Mencía, E., & Janssen, F. (2016).  
   *DeepRED – Rule Extraction from Deep Neural Networks.*  
-  International Conference on Discovery Science (DS 2016).  
+  International Conference on Discovery Science (DS 2016).
+- 【2】Sato, M., & Tsukimoto, H. (2001).
+   Rule extraction from neural networks via decision tree induction. Proceedings of the IEEE International Conference on Systems, Man, and Cybernetics, 1870–1875.
 
